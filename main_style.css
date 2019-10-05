@@ -1,0 +1,41 @@
+html, body {
+    padding: 0px;
+    
+    /* colours are supplied by JAVASCRIPT's stylesheet */
+    
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h1 {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+p {
+    font-size: 14pt;
+}
+
+nav {
+    text-align: right;
+    color: white;
+}
+
+a.nav_link {
+    color: white;
+}
+
+div#main_body {
+    margin-left: 25%;
+    width: 50%;
+}
+
+footer {
+    
+}

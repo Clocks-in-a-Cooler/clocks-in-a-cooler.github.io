@@ -1,0 +1,35 @@
+nav {
+    background-color: indianred;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+h2 {
+    color: crimson;
+}
+
+h3 {
+   color: firebrick; 
+}
+
+p {
+    color: darkred;
+}
+
+a:link {
+    color: salmon;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:visited {
+    color: salmon;
+}
+
+a:active {
+    color: white;
+}

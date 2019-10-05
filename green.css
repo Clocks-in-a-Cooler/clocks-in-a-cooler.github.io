@@ -1,0 +1,35 @@
+nav {
+    background-color: seagreen;
+}
+
+h1 {
+    color: springgreen;
+}
+
+h2 {
+    color: mediumseagreen;
+}
+
+h3 {
+   color: forestgreen; 
+}
+
+p {
+    color: darkgreen;
+}
+
+a:link {
+    color: darkseagreen;
+}
+
+a:hover {
+    color: mediumaquamarine;
+}
+
+a:visited {
+    color: darkseagreen;
+}
+
+a:active {
+    color: white;
+}

@@ -1,0 +1,35 @@
+nav {
+    background-color: purple;
+}
+    
+h1 {
+    color: mediumorchid;
+}
+
+h2 {
+    color: darkviolet;
+}
+
+h3 {
+    color: indigo; 
+}
+
+p {
+    color: darkslateblue;
+}
+
+a:link {
+    color: slateblue;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+a:visited {
+    color: slateblue;
+}
+
+a:active {
+    color: white;
+}
