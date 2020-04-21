@@ -1,0 +1,28 @@
+/* daytime colour theme */
+
+#space {
+    background-color: rgb(14, 25, 31);
+}
+
+#atmosphere {
+    background: linear-gradient(rgb(14, 25, 31), rgb(125, 219, 240));
+}
+
+#sky {
+    background-color: rgb(125, 219, 240);
+}
+
+.container {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.container:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#ground {
+    background-color: forestgreen;
+    color: white;
+}

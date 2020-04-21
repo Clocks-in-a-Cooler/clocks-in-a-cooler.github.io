@@ -1,17 +1,46 @@
-//pick a random CSS theme
-var colour_themes = [
-    "blue.css",
-    "red.css",
-    "green.css",
-    "purple.css",
-];
+//pick a css colour theme based on the time of day
 
-var colour_theme = document.getElementById("colour_theme");
+var themes = {
+    day     : "day.css",
+    night   : "night.css",
+    twilight: "twilight.css",
+};
 
-function choose_random_theme() {
-    colour_theme.href = colour_themes[Math.floor(Math.random() * 4)];
+function pick_theme() {
+    var hour = new Date().getHours();
+    
+    /*
+        0:00 to 4:59   -> night
+        5:00 to 7:59   -> twilight
+        8:00 to 17:59  -> day
+        18:00 to 20:59 -> twilight
+        21:00 to 23:59 -> night
+    */
+    
+    var theme;
+    
+    // if (hour < 5 || hour > 20) {
+        // theme = themes.night;
+    // } else if (hour < 8 || hour > 17) {
+        // theme = themes.twilight;
+    // } else {
+        theme = themes.day;
+    // }
+    
+    document.getElementById("colour_theme").href = theme;
 }
 
-addEventListener("click", choose_random_theme);
+pick_theme();
 
-choose_random_theme();
+//scroll to the bottom of the page
+window.scrollTo(0, document.body.scrollHeight);
+
+var body = document.body;
+var background = document.getElementById("background");
+
+background.style.height = body.clientHeight + "px";
+
+//fun features
+function draw_meteors() {
+    var n = Math.floor(Math.random() * 9) + 3;
+}
