@@ -26,3 +26,19 @@
     background-color: rgb(1, 28, 11);
     color: white;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: powderblue;
+}
+
+a:active {
+    color: dodgerblue;
+}

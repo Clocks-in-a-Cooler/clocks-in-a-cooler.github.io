@@ -36,9 +36,9 @@ a:visited {
 }
 
 a:hover {
-    color: powderblue;
+    color: thistle;
 }
 
 a:active {
-    color: royalblue;
+    color: lavender;
 }
