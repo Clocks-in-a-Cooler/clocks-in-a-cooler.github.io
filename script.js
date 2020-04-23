@@ -19,13 +19,13 @@ function pick_theme() {
     
     var theme;
     
-    // if (hour < 5 || hour > 20) {
-        // theme = themes.night;
-    // } else if (hour < 8 || hour > 17) {
-        // theme = themes.twilight;
-    // } else {
+    if (hour < 5 || hour > 20) {
+        theme = themes.night;
+    } else if (hour < 8 || hour > 17) {
+        theme = themes.twilight;
+    } else {
         theme = themes.day;
-    // }
+    }
     
     document.getElementById("colour_theme").href = theme;
 }
@@ -40,7 +40,11 @@ var background = document.getElementById("background");
 
 background.style.height = body.clientHeight + "px";
 
+var canvas = document.getElementById("atmosphere");
+canvas.width = window.innerWidth; canvas.height = 100;
+
 //fun features
+var meteors = [];
 function draw_meteors() {
     var n = Math.floor(Math.random() * 9) + 3;
 }

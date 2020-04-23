@@ -1,0 +1,44 @@
+/* twilight colour theme */
+
+#space {
+    background-color: rgb(31, 22, 14);
+}
+
+#atmosphere {
+    background: linear-gradient(rgb(31, 22, 14), rgb(95, 62, 106));
+}
+
+#sky {
+    background: linear-gradient(rgb(95, 62, 106), rgb(214, 51, 95));
+}
+
+.container {
+    border-color: rgb(155, 110, 237);
+    background-color: rgba(155, 110, 237, 0.5);
+    color: white;
+}
+
+.container:hover {
+    background-color: rgb(155, 110, 237)
+}
+
+#ground {
+    background-color: rgb(21, 52, 21);
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: powderblue;
+}
+
+a:active {
+    color: royalblue;
+}

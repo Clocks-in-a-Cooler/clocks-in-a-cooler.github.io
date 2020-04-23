@@ -27,6 +27,26 @@ p {
     font-size: 14pt;
 }
 
+a.nav_link:link {
+    color: white;
+    transition: color .5s;
+}
+
+a.nav_link:visited {
+    color: white;
+    transition: color .5s;
+}
+
+a.nav_link:hover {
+    color: rgb(158, 249, 139);
+    transition: color .5s;
+}
+
+a.nav_link:active {
+    color: rgb(82, 158, 40);
+    transition: color .5s;
+}
+
 #background {
     position: absolute;
     left: 0; bottom: 0;
@@ -90,4 +110,6 @@ p {
     height: 2em;
     bottom: 0px;
     z-index: 0;
+    padding: 10px;
+    text-align: center;
 }
