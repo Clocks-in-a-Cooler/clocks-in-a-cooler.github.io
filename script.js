@@ -30,18 +30,19 @@ function pick_theme() {
     document.getElementById("colour_theme").href = theme;
 }
 
-pick_theme();
-
-//scroll to the bottom of the page
-window.scrollTo(0, document.body.scrollHeight);
-
 var body = document.body;
 var background = document.getElementById("background");
 
-background.style.height = body.clientHeight + "px";
-
 var canvas = document.getElementById("atmosphere");
 canvas.width = window.innerWidth; canvas.height = 100;
+
+window.onload = function() {
+    pick_theme();
+    background.style.height = body.clientHeight + "px";
+    
+    //scroll to the bottom of the page
+    window.scrollTo(0, document.body.scrollHeight);
+};
 
 //fun features
 var meteors = [];
